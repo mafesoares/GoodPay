@@ -17,8 +17,8 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <script src="./src/index.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>App [Goodpay]</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>App [GoodPay]</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/goodplayH.png" alt="Logo com texto" width="140px" height="70">
+                    <img src="./img/goodplayH.png" alt="logo com texto" width="130" height="60">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -38,7 +38,7 @@
                         <img src="./img/GoodPay.png" alt="Logo Principal" width="80" height="80">
                         <h6 class="offcanvas-title" id="offcanvasNavbarLabel">Menu [GoodPay App]</h6>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                            aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <form class="d-flex">
@@ -59,7 +59,7 @@
                                     <div class="accordion-body">
                                         <form action="" class="ms-4">
                                             <div class="input-group mb-3">
-                                                <span class="input-group-text" id="basic-addon1">E-mail</span>
+                                                <span class="input-group-text" id="basic-addon1">E-Mail</span>
                                                 <input id="email" type="email" class="form-control"
                                                     placeholder="Entre com seu e-mail" aria-label="email"
                                                     aria-describedby="basic-addon1">
@@ -71,10 +71,11 @@
                                                     aria-describedby="basic-addon1">
                                             </div>
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-outline-info" type="button"
-                                                onclick="rotaLogin()" data-bs-dismiss="offcanvas">Entrar</button>
+                                                <button class="btn btn-outline-info" type="button" onclick="rotaLogin()"
+                                                    data-bs-dismiss="offcanvas">Entrar</button>
                                                 <button class="btn btn-outline-success" type="button"
-                                                    onclick="rotaCadastro()" data-bs-dismiss="offcanvas">Cadastar</button>
+                                                    onclick="rotaCadastro()"
+                                                    data-bs-dismiss="offcanvas">Cadastrar</button>
                                             </div>
                                         </form>
                                     </div>
@@ -91,7 +92,7 @@
                                 <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
-                                        <h5>DevTeam <span class="badge bg-success">BCW 18</span></h5>
+                                        <h5>DevTeam <span class="badge bg-success">BCW18</span> </h5>
                                         <p>
                                             Este aplicativo não tem conexão com o banco de dados, o desenvolvimento
                                             deste aplicativo tem como
@@ -124,16 +125,16 @@
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Curso de Desenvolvimento web baseado em Java Spring no Back-End com Angular
+                                            Curso de Deselvolvimento web baseado em Java Spring no Back-End com Angular
                                             Typescript no
                                             Front-End. Desenvolvido com metodologias agilistas e usando como base
                                             Projetos em DevOps.
                                         </p>
                                         <div class="text-center">
-                                            <img src="./img/logo-itlean.png" class="rounded" alt="Logo ITLean"
-                                                width="210" height="65"></img>
-                                            <img src="./img/logo-tnt.png" class="rounded" alt="Logo TNT"
-                                            width="120" height="90"></img>
+                                            <img src="./img/logo-itlean.png" class="rounded" alt="Logo da SoulCode"
+                                                width="210" height="65">
+                                            <img src="./img/logo-tnt.png" class="rounded" alt="Logo da SoulCode"
+                                                width="120" height="90">
                                         </div>
                                     </div>
                                 </div>
@@ -165,8 +166,8 @@
                                             físico e mental, permitindo
                                             o
                                             equilíbrio entre a vida profissional e pessoal, através do trabalho remoto,
-                                            com flexibilidade de horários, além de ser um negócio sustentável e
-                                            responsável, socialmente.
+                                            com flexibilidade de
+                                            horários, além de ser um negócio sustentável e responsável, socialmente.
                                         </p>
                                         <p class="badge bg-primary">
                                             Team SoulCode
@@ -182,50 +183,110 @@
     </header>
     <main>
         <div class="col-md-10" style="margin-left: 10%; margin-right: 10%;">
-            <div class="card mb-3" style="margin-top: 10%;">
-                <img src="./img/BannerGoodPay2.png" class="card-img-top" alt="Banner de promoção número 2">
-                <div class="card-body">
-                    <h5 class="card-title">Volte para o lado verde da vida</h5>
-                    <p class="card-text">
-                        Com o GoodPay cash back você economiza e na compra com nossos parceiros ainda receberá dinheiro
-                        de volta. Mais de 1645 parceiros de compras vão te ajudar a voltar para o saldo positivo em seu
-                        caixa. As compras com cash back deveram ser feitas em débito ou dinheiro e o retorno vai para o
-                        porquinho de seu caixa.
-                    </p>
-                    <p class="card-text"><small class="text-muted">Abril 19 de 2022</small></p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 10%;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card mb-3">
+                            <img src="./img/BannerGoodPay.png" class="card-img-top" alt="Banner de promoção numero 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Vem para o simples: GoodPay</h5>
+                                <p class="card-text">
+                                    Vamos descomplicar suas finanças, o aplicativo GoodPay tem a proposta de organizar
+                                    suas finanças com uso de tecnologia Javascript. Ele irá montar e organizar seus
+                                    gastos usando uma interface Bootstrap fluida e bem desenvolvida para facilitar seu
+                                    caixa pessoal. A aplicação tem uso simples e servirá para organiozar em um vetor de
+                                    obejtos suas entradas e saídas baseadas no uso de cards e alertas para seu
+                                    entendimento fácil do uso de suas receitas e gastos.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Abril 20 de 2022</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mb-3">
+                            <img src="./img/BannerGoodPay2.png" class="card-img-top" alt="Banner de promoção numero 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Volte para o lado verde da vida</h5>
+                                <p class="card-text">
+                                    Com o GoodPay cash back você economiza e na compra com nossos parceiros ainda
+                                    receberá dinheiro
+                                    de volta. Mais de 1645 parceiros de compras vão te ajudar a voltar para o saldo
+                                    positivo em seu
+                                    caixa. As compras com cash back deveram ser feitas em débito ou dinheiro e o retorno
+                                    vai para o
+                                    porquinho de seu caixa.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Abril 19 de 2022</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mb-3">
+                            <img src="./img/BannerGoodPay3.png" class="card-img-top" alt="Banner de promoção numero 2">
+                            <div class="card-body">
+                                <h5 class="card-title">The Pig Time</h5>
+                                <p class="card-text">
+                                    Com a assinatura do Pig Time você terá mais de 50 especialistas em finanças para
+                                    dicas de como economizar em cada compra na sua vida. Ainda terá 4 reais de retorno
+                                    para cada vez que for sorteada no Pig Time e ao final de 1 ano poderá ganhar 5x seu
+                                    proquinho. Ecomizando e investindo ao mesmo tempo na GoodPay App.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Abril 19 de 2022</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img src="./img/4.png" class="card-img-top" alt="Money for Life">
+                    <img src="img/4.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Money for Live</h5>
                         <p class="card-text">Com os planos de economia para sair no rolê, marque sua data de saida e só
                             guarde em seu cofre todos os meses se você for sorteado ganha 5x o que tiver em seu cofrinho
                             para dar aquele UP na suas férias.</p>
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#promo1"> Leia mais...</button>
+                        <button type="button" class="btn btn-outline-light" onclick="alertaPromo()">Leia
+                            mais...</button>
                         <p class="card-text"><small class="text-muted">Abril 19 de 2022</small></p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/5.png" class="card-img-top" alt="Black Friday">
+                    <img src="img/5.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Black Friday</h5>
                         <p class="card-text">Todos os planos do GoodPay com 50% de descontos só não tem desconto quem
                             não quer. Esta promoção é valida até dia 6 de janeiro de 2022 e somente para os planos que
                             não tem sorteios e capitalização premiada.</p>
-                            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#promo1"> Leia mais...</button>
+                        <button type="button" class="btn btn-outline-light">Leia mais...</button>
                         <p class="card-text"><small class="text-muted">Abril 19 de 2022</small></p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/6.png" class="card-img-top" alt="Plano de Educacao">
+                    <img src="img/6.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Plano de Educação</h5>
                         <p class="card-text">Comece a economizar assim que seu filho nascer e concorra todo ano á
                             premios percentuais de seu porquinho e se seu beneficiado tirar nota superior à 800 no Mec
                             Enem ganhe 3x do seu porquinho na hora para turbinar o prêmio pelo esforço dele.</p>
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#promo1"> Leia mais...</button>
+                        <button type="button" class="btn btn-outline-light">Leia mais...</button>
                         <p class="card-text"><small class="text-muted">Abril 19 de 2022</small></p>
                     </div>
                 </div>
@@ -237,11 +298,13 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Leia Mais</h5>
+                    <h5 class="modal-title" id="titulo"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Conteúdo...
+                    <p id="corpo">
+
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
